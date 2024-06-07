@@ -2,13 +2,15 @@
 
 ### Introduction
 
+***
+<img src="assets/c++.png" width="130" align="left">
+
 C++ is a very popular **programming language**.<br/>
 C++ can be used to create **high-performance** applications.<br/>
 C++ is a **cross-platform language**.
-
 C++ was developed by **Bjarne Stroustrup** in 1979.<br/>
-C++ gives programmers a high level of control over system resources and memory.
 
+C++ gives programmers a high level of control over system resources and memory.<br/>
 The language was updated 4 major times in 2011, 2014, 2017 and 2020 to `C++11`, `C++14`, `C++17`, `C++20`.
 
 ### Why use C++?
