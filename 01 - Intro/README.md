@@ -79,7 +79,7 @@ Escape sequence are generally used with strings to add or manipulate string with
 | \n |  Inserts a new line |
 | \t | Creates a horizontal tab |
 | \\\ | Inserts a backslash character |
-| \" | Inserts a double quote character |
+| \\" | Inserts a double quote character |
 
 ***
 
