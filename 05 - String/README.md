@@ -142,12 +142,14 @@ cout << (fruit.compare(food) == 0);             // 1
 >
 > cout << fruit.compare(food);
 > ```
-> > [!NOTE]\
-> > `compare()` method returns negative value if the first string is **lexicographically less** than the second string.
-> >
-> > `"Appl"` has 4 character while `"Apple"` has 5 character\
-> > Since we are comparing with bigger string\
-> > We will get a negative value as ` (4 - 5) = -1 `
+> 
+> Note💡
+>
+> `compare()` method returns negative value if the first string is **lexicographically less** than the second string.
+>
+> `"Appl"` has 4 character while `"Apple"` has 5 character\
+> Since we are comparing with bigger string\
+> We will get a negative value as ` (4 - 5) = -1 `
 >
 > It returns a positive value
 > ```cpp
@@ -156,12 +158,14 @@ cout << (fruit.compare(food) == 0);             // 1
 >
 > cout << fruit.compare(food);
 > ```
-> > [!NOTE]\
-> > `compare()` method returns positive value if the first string is **lexicographically greater** than the second string.
-> >
-> > `"Applee"` has 6 character while `"Apple"` has 5 character\
-> > Since we are comparing with lower string\
-> > We will get a positive value as ` (6 - 5) = 1 `
+> 
+> Note💡
+>
+> `compare()` method returns positive value if the first string is **lexicographically greater** than the second string.
+> 
+> `"Applee"` has 6 character while `"Apple"` has 5 character\
+> Since we are comparing with lower string\
+> We will get a positive value as ` (6 - 5) = 1 `
 
 #### swap()
 ```cpp
