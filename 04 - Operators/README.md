@@ -89,3 +89,7 @@ cout << (!(num1 > num2) && (num2 > num3));      // 1
 >
 > **Order of Evaluation**\
 > NOT `(!)` > AND `(&&)` > OR `(||)`
+
+### Next Chapter ⏭️
+
+##### Happy Coding 💖
