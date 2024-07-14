@@ -6,7 +6,7 @@ We already know that C++ supports the usual logic conditions from mathematics
 - Less than a < b
 - Less than or Equal to a <= b
 - Greater than a > b
-- Greater thab or Equal to a >= b
+- Greater than or Equal to a >= b
 - Equal to a == b
 - Not Equal to a != b
 
