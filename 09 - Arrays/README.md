@@ -123,9 +123,37 @@ for (int i = 0; i < len; i++) {
 }
 ```
 
+### Multidimensional Array
+A multi-dimensional array is an array of arrays.
 
+To declare a multi-dimensional array, define the variable type, specify the name of the array followed by square brackets which specify how many elements the main array has, followed by another set of square brackets which indicates how many elements the sub-arrays have.
 
+```cpp
+string letters[3][2] = {
+    {"A", "B"},
+    {"C", "D"},
+    {"E", "F"}
+}
 
+cout << letters[1][1];      // D
+```
+
+> [!NOTE]\
+> Multi-dimensional arrays are great at representing grids.
+
+**Looping through multi-dimensional array**
+```cpp
+string colors[3][3] = {
+    {"RED", "GREEN", "BLUE"},
+    {"DANGER", "HEALTH", "SAFETY"}
+};
+
+for (int i = 0; i < 3; i++) {
+    for (int j = 0; j < 3; j++) {
+        cout << colors[i][j] << " ";
+    } cout << "\n";
+}
+```
 
 ### Next Chapter ⏭️
 
